@@ -1,0 +1,16 @@
+# 08-02-2022-assignment-2
+# convert kilometers into centimeters,meters,millimeters
+     
+km=int(input("Enter the length in Kilometer:"))
+m=km*1000
+cm=m*100
+mm=cm*10
+print('length in meters:',m)
+print('length in centimeters:',cm)
+print('length in millimeters:',mm)
+
+output:
+Enter the length in Kilometer:8
+length in meters: 8000
+length in centimeters: 800000
+length in millimeters: 8000000
